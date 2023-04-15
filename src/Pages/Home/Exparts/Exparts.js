@@ -18,7 +18,7 @@ const exparts = [
 ];
 const Exparts = () => {
   return (
-    <div className="container">
+    <div id="exparts" className="container">
       <h1 className="text-primary mt-5">Our Exparts</h1>
       <div className="row">
         {exparts.map((expart) => (

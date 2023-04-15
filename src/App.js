@@ -4,11 +4,13 @@ import Home from "./Pages/Home/Home/Home";
 import NotFound from "./Pages/Home/NotFound/NotFound";
 import Booking from "./Pages/Booking/Booking/Booking";
 import Login from "./Pages/Login/Login/Login";
+import Header from "./Pages/Shared/Header/Header";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
