@@ -9,14 +9,32 @@ const Banner = () => {
     <>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100 img-fluid" src={banner1} alt="First slide" />
+          <div
+            style={{
+              height: "425px",
+              textAign: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            <img className="d-block w-100 img-fluid  center" src={banner1} alt="First slide" />
+          </div>
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 img-fluid" src={banner2} alt="Second slide" />
+          <div
+            style={{
+              height: "425px",
+              alignItems: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            <img className="d-block w-100 img-fluid  center" src={banner3} alt="First slide" />
+          </div>
 
           <Carousel.Caption>
             <h3>Second slide label</h3>
@@ -24,8 +42,16 @@ const Banner = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 img-fluid" src={banner3} alt="Third slide" />
-
+          <div
+            style={{
+              height: "425px",
+              textAign: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            <img className="d-block w-100 img-fluid  center" src={banner2} alt="First slide" />
+          </div>
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
